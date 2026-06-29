@@ -18,19 +18,19 @@ while(<infile>){
 	print "$temp[3]\n";
 	if ($num %12 == 11){
 	    if ($num1 == 0){
-		system("./bin/convert_checkout_hist $temp[3] $temp[4] -bholly_antinue_bdt");
+		system("./bin/convert_checkout_hist $temp[3] $temp[4] -bwwang_numu_numubar_BDT");
 	    }elsif ($num1==1){
-		system("./bin/convert_checkout_hist_xs $temp[3] $temp[4] -bholly_antinue_bdt");
+		system("./bin/convert_checkout_hist_xs $temp[3] $temp[4] -bwwang_numu_numubar_BDT");
 	    }elsif ($num1==2){
-		system("./bin/convert_checkout_hist $temp[3] $temp[4] -o1 -bholly_antinue_bdt");
+		system("./bin/convert_checkout_hist $temp[3] $temp[4] -o1 -bwwang_numu_numubar_BDT");
 	    }
 	}else{
 	    if ($num1 == 0){
-		system("./bin/convert_checkout_hist $temp[3] $temp[4] -bholly_antinue_bdt&");
+		system("./bin/convert_checkout_hist $temp[3] $temp[4] -bwwang_numu_numubar_BDT&");
 	    }elsif ($num1 == 1){
-		system("./bin/convert_checkout_hist_xs $temp[3] $temp[4] -bholly_antinue_bdt&");
+		system("./bin/convert_checkout_hist_xs $temp[3] $temp[4] -bwwang_numu_numubar_BDT&");
 	    }elsif ($num1 == 2){
-		system("./bin/convert_checkout_hist $temp[3] $temp[4] -o1 -bholly_antinue_bdt&");
+		system("./bin/convert_checkout_hist $temp[3] $temp[4] -o1 -bwwang_numu_numubar_BDT&");
 	    }
 	}
     }
