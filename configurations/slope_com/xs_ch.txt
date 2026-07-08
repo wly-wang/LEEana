@@ -1,4 +1,0 @@
-nueCC_signal_Enu_FC_overlay
-nueCC_signal_Enu_PC_overlay
-End
-Name_of_histogram_used_for_signal

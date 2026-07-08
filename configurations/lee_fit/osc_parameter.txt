@@ -1,3 +1,0 @@
-7.2		0.26
--1		-1
-delta_m2_eV2	sin22theta_ee

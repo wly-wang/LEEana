@@ -1,4 +1,0 @@
-numuCC_signal_Emu_FC_overlay
-numuCC_signal_Emu_PC_overlay
-End
-Name_of_histogram_used_for_signal

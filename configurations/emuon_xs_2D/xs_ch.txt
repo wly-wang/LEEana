@@ -1,8 +1,0 @@
-numuCC_signal_Emu_theta0_FC_overlay
-numuCC_signal_Emu_theta0_PC_overlay
-numuCC_signal_Emu_theta1_FC_overlay
-numuCC_signal_Emu_theta1_PC_overlay
-End
-Name_of_histogram_used_for_signal
-numuCC_signal_Emu_FC_overlay
-numuCC_signal_Emu_PC_overlay

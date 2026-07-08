@@ -1,7 +1,0 @@
-1	intrinsic_nue		1		./processed_checkout_rootfiles/checkout_prodgenie_numi_intrinsic_nue_overlay_run1.root		./hist_rootfiles/checkout_prodgenie_bnb_intrinsic_nue_overlay_run1.root		0		1	0	1
-2	nu_overlay		1		./processed_checkout_rootfiles/checkout_prodgenie_numi_overlay_run1.root			./hist_rootfiles/checkout_prodgenie_bnb_nu_overlay_run1.root			0		2	0	1
-5	BNB			1		./processed_checkout_rootfiles/checkout_data_numi_run1_full.root				./hist_rootfiles/run1_data_bnb.root						2.819e20	3	0	1
-3	EXTBNB			1		./processed_checkout_rootfiles/checkout_data_extnumi_run1.root					./hist_rootfiles/checkout_data_extbnb_run1.root					1.1603984e+20	4	0	1	
--1	end			-1		end												end										-1		-1	-1	-1
-#file	#type			#period		#filename											#outfile_name									#ext_pot	#file_no  #norm		#norm_period
-

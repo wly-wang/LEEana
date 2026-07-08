@@ -1,0 +1,8 @@
+wwang_numu_numubar_RHC_data wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 0 15 unity 0
+wwang_numu_numubar_RHC_numu wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 1 20 cv_spline 0
+wwang_numu_numubar_RHC_numubar wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 2 20 cv_spline 0
+wwang_numu_numubar_RHC_other wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 3 20 cv_spline 0
+wwang_numu_numubar_RHC_ext wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 4 30 unity 0
+wwang_numu_numubar_RHC_dirt wwang_numu_numubar_BDT 25 0 1 1 0 0 0 0 5 40 cv_spline 0
+End End -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 end -1
+Name:                                   #Var:        #bin   #start  #end    #obs #xs_flux #det #add_sys #same_mc #cov_sec #file #weight  #lee_strength

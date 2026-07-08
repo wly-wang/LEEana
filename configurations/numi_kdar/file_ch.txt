@@ -1,7 +1,0 @@
-./processed_checkout_rootfiles/checkout_prodgenie_numi_intrinsic_nue_overlay_run1.root		all
-./processed_checkout_rootfiles/checkout_prodgenie_numi_overlay_run1.root			all
-./processed_checkout_rootfiles/checkout_data_numi_run1_morestat.root				all
-./processed_checkout_rootfiles/checkout_data_numi_run1_full.root				all
-./processed_checkout_rootfiles/checkout_data_extnumi_run1.root					all
-end												end
-#file												#cut
