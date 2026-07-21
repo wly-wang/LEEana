@@ -1,0 +1,26 @@
+2 overlay 11 /scratch/wwang/ROOT_files/run1/checkout_prodgenie_numi_newflux_run1_fhc_nu_overlay.root ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run1_fhc_nu_overlay.root 0 1 0 11
+15 NuMI 11 /scratch/wwang/ROOT_files/run1/checkout_data_numi_run1_FHC.root ./hist_rootfiles/FHC/checkout_data_numi_run1_FHC.root 1.98e20 2 0 11
+3 EXTNuMI 11 /scratch/wwang/ROOT_files/run1/checkout_data_extnumi_run1.root ./hist_rootfiles/FHC/checkout_data_extnumi_run1_fhc.root 2.90e+20 3 0 11
+4 dirt 11 /scratch/wwang/ROOT_files/run1/checkout_prodgenie_run1_fhc_dirt.root ./hist_rootfiles/FHC/checkout_prodgenie_run1_fhc_dirt.root 0 4 0 11
+
+2 overlay 21 /scratch/wwang/ROOT_files/run2/checkout_prodgenie_numi_newflux_run2_fhc_nu_overlay.root ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run2_fhc_nu_overlay.root 0 5 0 21
+15 NuMI 21 /scratch/wwang/ROOT_files/run2/checkout_data_numi_run2_FHC.root ./hist_rootfiles/FHC/checkout_data_numi_run2_FHC.root 1.29e+20 6 0 21
+3 EXTNuMI 21 /scratch/wwang/ROOT_files/run2/checkout_data_extnumi_run2.root ./hist_rootfiles/FHC/checkout_data_extnumi_run2_fhc.root 9.14e+20 7 0 21
+4 dirt 21 /scratch/wwang/ROOT_files/run2/checkout_prodgenie_run2_fhc_dirt.root ./hist_rootfiles/FHC/checkout_prodgenie_run2_fhc_dirt.root 0 8 0 21
+
+2 overlay 431 /scratch/wwang/ROOT_files/run4c/checkout_prodgenie_numi_newflux_run4c_fhc_nu_overlay.root ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run4c_fhc_nu_overlay.root 0 9 0 431
+15 NuMI 431 /scratch/wwang/ROOT_files/run4c/checkout_run4c_fhc_beamon.root.root ./hist_rootfiles/FHC/checkout_run4c_fhc_beamon.root 1.012e20 10 0 431
+3 EXTNuMI 431 /scratch/wwang/ROOT_files/run4c/checkout_run4c_fhc_beamoff.root.root ./hist_rootfiles/FHC/checkout_run4c_fhc_beamoff.root 3.3284e20 11 0 431
+4 dirt 431 /scratch/wwang/ROOT_files/run4c/checkout_prodgenie_run1_fhc_dirt.root ./hist_rootfiles/FHC/checkout_prodgenie_run4c_fhc_dirt.root 0 12 0 431
+
+2 overlay 44 /scratch/wwang/ROOT_files/run4d/checkout_prodgenie_numi_newflux_run4d_fhc_nu_overlay.root ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run4d_fhc_nu_overlay.root 0 13 0 44
+15 NuMI 44 /scratch/wwang/ROOT_files/run4d/checkout_run4d_fhc_beamon.root.root ./hist_rootfiles/FHC/checkout_run4d_fhc_beamon.root.root 8.011e19 14 0 44
+3 EXTNuMI 44 /scratch/wwang/ROOT_files/run4d/checkout_run4d_fhc_beamoff.root.root ./hist_rootfiles/FHC/checkout_run4d_fhc_beamoff.root 1.3944e21 15 0 44
+4 dirt 44 /scratch/wwang/ROOT_files/run4d/checkout_prodgenie_run1_fhc_dirt.root ./hist_rootfiles/FHC/checkout_prodgenie_run4d_fhc_dirt.root 0 16 0 44
+
+2 overlay 51 /scratch/wwang/ROOT_files/run5/checkout_prodgenie_numi_newflux_run5_fhc_nu_overlay.root ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run5_fhc_nu_overlay.root 0 17 0 51
+15 NuMI 51 /scratch/wwang/ROOT_files/run5/checkout_run5_fhc_beamon.root.root ./hist_rootfiles/FHC/checkout_run5_fhc_beamon.root 2.139e20 18 0 51
+3 EXTNuMI 51 /scratch/wwang/ROOT_files/run5/checkout_run5_fhc_beamoff.root.root ./hist_rootfiles/FHC/checkout_run5_fhc_beamoff.root 8.211e20 19 0 51
+4 dirt 51 /scratch/wwang/ROOT_files/run5/checkout_prodgenie_run1_fhc_dirt.root ./hist_rootfiles/FHC/checkout_prodgenie_run5_fhc_dirt.root 0 20 0 51
+-1 end -1 end end -1 -1 -1 -1
+#file #type #period #filename #outfile_name #ext_pot #file_no #norm #norm_period

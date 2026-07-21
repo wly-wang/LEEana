@@ -5,3 +5,5 @@
 /bdt_weights
 /bin
 *.bak
+
+/hist_rootfiles/
