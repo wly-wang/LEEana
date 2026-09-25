@@ -5,6 +5,7 @@
 #include "TLegend.h"
 #include "TString.h"
 #include "TStyle.h"
+#include "TAxis.h"
 
 #include <algorithm>
 #include <cmath>
@@ -87,16 +88,16 @@ TGraph* make_one_vs_rest_roc(
   return gr;
 }
 
-void make_roc_multiclass_event_level()
+void make_roc_multiclass_event_level(
+    const char* input_file =
+      "hist_rootfiles/test_multiclass/test_run1_fhc_overlay_final.root",
+    const char* output_file = "roc_multiclass_run1_fhc_even_run.png",
+    bool use_weights = false)
 {
-  const char* input_file =
-    "hist_rootfiles/test_multiclass/test_run1_fhc_overlay_with_roc.root";
-
   const char* tree_name = "wwang_roc";
 
   // Your Python roc_curve call did not pass sample_weight,
   // so false means this is the direct Python-equivalent unweighted ROC.
-  bool use_weights = false;
 
   TFile* f = TFile::Open(input_file);
   if (!f || f->IsZombie()) {
@@ -189,5 +190,5 @@ void make_roc_multiclass_event_level()
   leg->AddEntry(gr_numubar, Form("#bar{#nu}_{#mu} CC, AUC = %.3f", auc_numubar), "l");
   leg->Draw();
 
-  c->SaveAs("roc_multiclass_like_python_cpp.png");
+  c->SaveAs(output_file);
 }

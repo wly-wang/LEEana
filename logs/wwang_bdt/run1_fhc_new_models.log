@@ -1,0 +1,44 @@
+2 ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run1_fhc_nu_overlay.root 1
+15 ./hist_rootfiles/FHC/checkout_data_numi_run1_FHC.root 2
+3 ./hist_rootfiles/FHC/checkout_data_extnumi_run1_fhc.root 3
+4 ./hist_rootfiles/FHC/checkout_prodgenie_run1_fhc_dirt.root 4
+2 ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run2_fhc_nu_overlay.root 5
+15 ./hist_rootfiles/FHC/checkout_data_numi_run2_FHC.root 6
+3 ./hist_rootfiles/FHC/checkout_data_extnumi_run2_fhc.root 7
+4 ./hist_rootfiles/FHC/checkout_prodgenie_run2_fhc_dirt.root 8
+2 ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run4c_fhc_nu_overlay.root 9
+15 ./hist_rootfiles/FHC/checkout_run4c_fhc_beamon.root 10
+3 ./hist_rootfiles/FHC/checkout_run4c_fhc_beamoff.root 11
+4 ./hist_rootfiles/FHC/checkout_prodgenie_run4c_fhc_dirt.root 12
+2 ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run4d_fhc_nu_overlay.root 13
+15 ./hist_rootfiles/FHC/checkout_run4d_fhc_beamon.root.root 14
+3 ./hist_rootfiles/FHC/checkout_run4d_fhc_beamoff.root 15
+4 ./hist_rootfiles/FHC/checkout_prodgenie_run4d_fhc_dirt.root 16
+2 ./hist_rootfiles/FHC/checkout_prodgenie_numi_newflux_run5_fhc_nu_overlay.root 17
+15 ./hist_rootfiles/FHC/checkout_run5_fhc_beamon.root 18
+3 ./hist_rootfiles/FHC/checkout_run5_fhc_beamoff.root 19
+4 ./hist_rootfiles/FHC/checkout_prodgenie_run5_fhc_dirt.root 20
+-1 end -1
+Error in <TTree::SetBranchAddress>: unknown branch -> truth_daughters
+Error in <TTree::SetBranchAddress>: unknown branch -> reco_daughters
+Total POT: 2.28059e+21 external POT: 0
+                         : Booking "wwang_numu_numubar_BDT_FHC_others" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_FHC_others.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_FHC_others.xml
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "wwang_numu_numubar_BDT_FHC_numuCC" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_FHC_numuCC.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_FHC_numuCC.xml
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "wwang_numu_numubar_BDT_FHC_numubarCC" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_FHC_numubarCC.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_FHC_numubarCC.xml
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "wwang_numu_numubar_BDT_RHC_others" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_RHC_others.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_RHC_others.xml
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "wwang_numu_numubar_BDT_RHC_numuCC" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_RHC_numuCC.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_RHC_numuCC.xml
+                         : Booked classifier "BDT" of type: "BDT"
+                         : Booking "wwang_numu_numubar_BDT_RHC_numubarCC" of type "BDT" from bdt_weights/wwang_numu_numubar_BDT_RHC_numubarCC.xml.
+                         : Reading weight file: bdt_weights/wwang_numu_numubar_BDT_RHC_numubarCC.xml
+                         : Booked classifier "BDT" of type: "BDT"
+ Fetched my BDT 
+Total entries: 690625
